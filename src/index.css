@@ -145,7 +145,7 @@ button {
   @apply flex flex-col md:justify-between  gap-2;
 }
 .portfolio-container {
-  @apply my-[18%] md:my-[10%] min-h-svh 2xl:min-h-fit p-5 2xl:w-[65svw] xl:mx-auto;
+  @apply my-[18%] md:my-[10%] min-h-svh xl:min-h-fit p-5 2xl:w-[65svw] xl:mx-auto;
 }
 .portfolio-nav {
   @apply p-2 2xl:p-5 2xl:text-3xl rounded-md my-2 md:my-5 flex justify-evenly place-self-center-safe w-full md:w-[70%] mx-auto shadow-[0_5px_10px_rgba(0,15,0,0.45)] md:rounded-full  bg-white/20 backdrop-blur-[2px]   before:content-[''] md:before:absolute md:before:inset-0 mb-5 z-20;
@@ -163,7 +163,7 @@ button {
   @apply p-2 md:p-5 rounded-md my-2 md:my-5 flex justify-evenly place-self-center-safe w-full mx-auto;
 }
 .contact-container {
-  @apply my-[18%] md:my-[10%] min-h-svh 2xl:min-h-fit p-5 2xl:w-[65svw] xl:mx-auto;
+  @apply my-[18%] md:my-[10%] min-h-svh xl:min-h-fit p-5 2xl:w-[65svw] xl:mx-auto;
 }
 .form-card {
   @apply flex md:w-[85%] md:mx-auto flex-col gap-5 w-full py-5 px-2 md:p-8 rounded-lg md:rounded-2xl  md:shadow-[0_0_10px_#3b82f6] dark:shadow-[0_0_10px] my-5 md:my-16;
