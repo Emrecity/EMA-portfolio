@@ -100,10 +100,10 @@ button {
   @apply text-2xl md:text-7xl font-extrabold capitalize;
 }
 .text-h2 {
-  @apply font-bold my-1 text-2xl md:text-[clamp(2.1rem,5vw,3.6rem)] leading-tight capitalize;
+  @apply font-bold my-1 text-2xl md:text-[clamp(2.1rem,5vw,3.6rem)] 2xl:text-[clamp(2.7rem,5vw,4.1rem)] leading-tight capitalize;
 }
 .text-h2-lg {
-  @apply font-bold my-1 text-2xl md:text-[clamp(2.2rem,5vw,3.8rem)] dark:text-slate-500 leading-tight capitalize;
+  @apply font-bold my-1 text-2xl md:text-[clamp(2.2rem,5vw,3.8rem)] 2xl:text-[clamp(3.0rem,5vw,4.1rem)] dark:text-slate-500 leading-tight capitalize;
 }
 .text-h3 {
   @apply text-base md:text-4xl font-medium;
