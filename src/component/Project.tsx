@@ -29,7 +29,7 @@ const Project = () => {
   ];
   return (
     <div className=" w-full place-content-center-safe z-10">
-      <div className="grid  md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-between gap-5">
+      <div className="grid  md:grid-cols-3 xl:grid-cols-4  justify-between gap-5">
         {projectList.map((item, key) => {
           return (
             <Card

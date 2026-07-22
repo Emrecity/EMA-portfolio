@@ -52,7 +52,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-card text-white/70  dark:text-slate-500  dark:bg-white/50">
-          <h3 className="text-h4 dark:underline dark:underline-offset-10">
+          <h3 className="text-h4 2xl:mb-16 dark:underline dark:underline-offset-10">
             Key Internship
           </h3>
           <div>
@@ -65,7 +65,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-card text-white/70   dark:text-slate-500  dark:bg-white/50">
-          <h3 className="text-h4 dark:underline dark:underline-offset-10">
+          <h3 className="text-h4 2xl:mb-16 dark:underline dark:underline-offset-10">
             Voluntary Service
           </h3>
           <div>
