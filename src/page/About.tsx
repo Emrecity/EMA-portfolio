@@ -4,8 +4,8 @@ const About = () => {
       <h2 className="text-h2 text-color-secondary my-5 text-center">
         Not merely writing code - I architect sustainable solutions
       </h2>
-      <div className="flex flex-col md:flex-row md:justify-evenly gap-5 space-3 mt-20">
-        <div className="text-justify md:w-xl flex flex-col py-5 space-y-5 ">
+      <div className="flex flex-col md:flex-row md:justify-evenly 2xl:justify-around gap-5 space-3 mt-20">
+        <div className="text-justify md:w-xl 2xl:w-5xl flex flex-col py-5 space-y-5 ">
           <h2 className="text-h2-lg">Emmanuel Owusu</h2>
           <p className="text-p">
             I am a trained IT professional with a disciplined foundation in
@@ -32,20 +32,22 @@ const About = () => {
         <img
           src="/subprofile.jpg"
           alt="profile-image"
-          className=" rounded md:rounded-full md:w-sm"
+          className=" rounded md:rounded-full md:w-sm 2xl:w-lg"
         />
       </div>
       <div className="my-16 grid sm:grid-cols-2 md:grid-cols-3 gap-5 dark:bg-white/30 bg-cyan-500 p-3 md:p-5  rounded-xl">
         <div className="about-card text-white/70  dark:text-slate-500  dark:bg-white/50">
-          <h3 className="text-h4  dark:underline dark:underline-offset-10">
+          <h3 className="text-h4 dark:underline dark:underline-offset-10">
             Academic Qualification
           </h3>
           <div>
-            <strong>B.Sc Information Technology</strong>
+            <strong className=" 2xl:text-4xl ">
+              B.Sc Information Technology
+            </strong>
             <p className="text-p">Aamusted (USTED), 2020 - 2024 </p>
           </div>
           <div>
-            <strong>General Arts (WASSCE)</strong>
+            <strong className=" 2xl:text-4xl ">General Arts (WASSCE)</strong>
             <p className="text-p">Okess, 2016 - 2019 </p>
           </div>
         </div>
@@ -54,11 +56,11 @@ const About = () => {
             Key Internship
           </h3>
           <div>
-            <strong>Software Developer</strong>
+            <strong className=" 2xl:text-4xl ">Software Developer</strong>
             <p className="text-p">Opencastgh, July 2022 - Dec 2022 </p>
           </div>
           <div>
-            <strong>IT Support Intern</strong>
+            <strong className=" 2xl:text-4xl ">IT Support Intern</strong>
             <p className="text-p">KATH, July 2021 - Dec 2021</p>
           </div>
         </div>
@@ -67,11 +69,11 @@ const About = () => {
             Voluntary Service
           </h3>
           <div>
-            <strong>IT Facilator</strong>
+            <strong className=" 2xl:text-4xl ">IT Facilator</strong>
             <p className="text-p">Meduma M/A, Oct 2024 - Aug 2025 </p>
           </div>
           <div>
-            <strong>Software Engineer</strong>
+            <strong className=" 2xl:text-4xl ">Software Engineer</strong>
             <p className="text-p">Samasoft Tech, July 2023 - Dec 2023 </p>
           </div>
         </div>
