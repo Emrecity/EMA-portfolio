@@ -106,16 +106,16 @@ button {
   @apply font-bold my-1 text-2xl md:text-[clamp(2.2rem,5vw,3.8rem)] 2xl:text-[clamp(3.0rem,5vw,4.1rem)] dark:text-slate-500 leading-tight capitalize;
 }
 .text-h3 {
-  @apply text-base md:text-4xl font-medium;
+  @apply text-base md:text-4xl font-medium 2xl:text-7xl;
 }
 .text-h4-shd {
-  @apply text-base md:text-lg text-shadow-[0_0_15px] dark:text-slate-500;
+  @apply text-base md:text-lg 2xl:text-3xl text-shadow-[0_0_15px] dark:text-slate-500;
 }
 .text-h4 {
-  @apply md:text-[clamp(0.5rem,2vw,1.8rem)] leading-tight;
+  @apply md:text-[clamp(0.5rem,2vw,1.8rem)] 2xl:text-[clamp(0.75rem,2vw,2.25rem)] leading-tight;
 }
 .text-p {
-  @apply md:text-[clamp(1rem,2vw,1.15rem)] leading-tight dark:text-slate-500;
+  @apply md:text-[clamp(1rem,2vw,1.15rem)] 2xl:text-[clamp(1.25rem,2vw,1.4rem)] leading-tight dark:text-slate-500;
 }
 .text-color-primary {
   @apply bg-linear-to-r from-cyan-500 font-bold transition-all  dark:to-slate-400 to-black bg-clip-text text-transparent;
