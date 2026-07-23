@@ -59,12 +59,12 @@ const Navbar = ({
           </li>
           <button
             onClick={() => setDarktheme(!darktheme)}
-            className="transition-all delay-100 duration-300 ease-in"
+            className="transition-transform place-content-center delay-100 duration-300 ease-in"
           >
             {darktheme ? (
               <svg
                 width="30px"
-                height="30px"
+                height="25px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ const Navbar = ({
             ) : (
               <svg
                 width="30px"
-                height="30px"
+                height="25px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ const Navbar = ({
             >
               <path
                 d="M5.293 5.293a1 1 0 0 1 1.414 0L12 10.586l5.293-5.293a1 1 0 1 1 1.414 1.414L13.414 12l5.293 5.293a1 1 0 0 1-1.414 1.414L12 13.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L10.586 12 5.293 6.707a1 1 0 0 1 0-1.414z"
-                fill="#0D0D0D"
+                fill={darktheme ? "#CBD5E1" : "#F87171"}
               />
             </svg>
           ) : (
@@ -122,7 +122,7 @@ const Navbar = ({
                 fill-rule="evenodd"
                 clip-rule="evenodd"
                 d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
-                fill="#000000"
+                fill={darktheme ? "#CBD5E1" : "#0D0D0D"}
               />
             </svg>
           )}
@@ -182,24 +182,27 @@ const Navbar = ({
               contact
             </a>
           </li>
-          <button onClick={() => setDarktheme(!darktheme)}>
+          <button
+            onClick={() => setDarktheme(!darktheme)}
+            className="transition-transform place-content-center delay-100 duration-300 ease-in"
+          >
             {darktheme ? (
               <svg
                 width="30px"
-                height="30px"
+                height="25px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   d="M13.589 21.659c-3.873 1.038-8.517-.545-10.98-3.632a1 1 0 0 1 .751-1.623c3.984-.118 6.662-1.485 8.17-4.098 1.51-2.613 1.354-5.616-.535-9.125a1 1 0 0 1 1.03-1.463c3.904.59 7.597 3.82 8.635 7.694 1.43 5.334-1.737 10.818-7.071 12.247z"
-                  fill="#64748B"
+                  fill="#CBD5E1"
                 />
               </svg>
             ) : (
               <svg
                 width="30px"
-                height="30px"
+                height="25px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
