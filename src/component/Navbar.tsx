@@ -1,6 +1,12 @@
 import { useState } from "react";
 
-const Navbar = ({ setDarktheme, darktheme }) => {
+const Navbar = ({
+  setDarktheme,
+  darktheme,
+}: {
+  setDarktheme: (darktheme: boolean) => void;
+  darktheme: boolean;
+}) => {
   const [menu, setMenu] = useState(false);
   const [page, setPage] = useState("home");
 

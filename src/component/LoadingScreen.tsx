@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const LoadingScreen = ({ onComplete }) => {
+const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
   const [text, setText] = useState("");
   const fullText = "<Hello, Welcome To My Portfolio/>";
 
