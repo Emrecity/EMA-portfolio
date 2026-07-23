@@ -64,7 +64,7 @@ button {
   @apply hover:cursor-pointer;
 }
 .btn-primary {
-  @apply rounded-md 2xl:rounded-xl p-2 w-full md:w-38.5 2xl:w-78 2xl:p-6 hover:shadow-[0_5px_10px_rgba(0,15,0,0.45)] dark:hover:shadow-[0_0_5px] bg-cyan-500 dark:bg-white/30 dark:text-black text-white  dark:hover:text-white hover:cursor-pointer text-center 2xl:text-3xl transition-all duration-400;
+  @apply rounded-md 2xl:rounded-xl p-2 w-full md:w-38.5 2xl:w-78.5 2xl:p-6 hover:shadow-[0_5px_10px_rgba(0,15,0,0.45)] dark:hover:shadow-[0_0_5px] bg-cyan-500 dark:bg-white/30 dark:text-black text-white  dark:hover:text-white hover:cursor-pointer text-center 2xl:text-3xl transition-all duration-400;
 }
 .btn-secondary {
   @apply rounded-md 2xl:rounded-xl p-2 w-full md:w-38.5 2xl:w-78 2xl:p-6 2xl:text-3xl  hover:shadow-[0_5px_10px_rgba(0,15,0,0.45)] dark:hover:shadow-[0_0_5px] bg-black dark:bg-black/50 text-center text-white dark:text-white/50 hover:text-white hover:cursor-pointer transition-all duration-400;
@@ -73,7 +73,7 @@ button {
   @apply rounded-md 2xl:rounded-xl 2xl:w-78 2xl:p-4 2xl:text-5xl p-2 w-full hover:shadow-[0_5px_10px_rgba(0,15,0,0.45)] dark:hover:shadow-[0_0_5px] bg-cyan-500 dark:bg-white/40 dark:text-black text-white/80 hover:text-white  dark:hover:text-white hover:cursor-pointer text-center transition-all duration-400;
 }
 .btn-link-secondary {
-  @apply rounded-md 2xl:rounded-xl 2xl:p-4 2xl:text-5xl p-2 w-full hover:shadow-[0_5px_10px_rgba(0,15,0,0.45)] dark:hover:shadow-[0_0_5px] bg-cyan-500 dark:bg-white/40 dark:text-black text-white/80 hover:text-white  dark:hover:text-white hover:cursor-pointer text-center transition-all duration-400;
+  @apply rounded-md 2xl:rounded-xl 2xl:p-4 2xl:text-3xl p-2 w-full hover:shadow-[0_5px_10px_rgba(0,15,0,0.45)] dark:hover:shadow-[0_0_5px] bg-cyan-500 dark:bg-white/40 dark:text-black text-white/80 hover:text-white  dark:hover:text-white hover:cursor-pointer text-center transition-all duration-400;
 }
 .main-container {
   @apply dark:bg-slate-800 bg-slate-100 dark:text-white/60 min-w-svw min-h-svh overflow-x-hidden p-5 font-poppins xl:w-[75svw];
@@ -100,25 +100,26 @@ button {
 }
 
 .text-h1 {
-  @apply text-2xl md:text-7xl font-extrabold capitalize;
+  @apply font-extrabold my-3 text-[clamp(2.2rem,6vw,3.8rem)] md:text-[clamp(2.7rem,6vw,4.1rem)] 2xl:text-[clamp(3.4rem,7vw,4.4rem)] uppercase;
 }
 .text-h2 {
-  @apply font-bold my-1 text-2xl md:text-[clamp(2.1rem,5vw,3.6rem)] 2xl:text-[clamp(2.7rem,5vw,4.1rem)] leading-tight capitalize;
-}
-.text-h2-lg {
-  @apply font-bold my-1 text-2xl md:text-[clamp(2.2rem,5vw,3.8rem)] 2xl:text-[clamp(3.0rem,5vw,4.1rem)] dark:text-slate-500 leading-tight capitalize;
+  @apply font-bold my-2 text-[clamp(1.7rem,5vw,2.7rem)] md:text-[clamp(2.4rem,5vw,3.5rem)] 2xl:text-[clamp(3.1rem,5vw,3.9rem)] capitalize;
 }
 .text-h3 {
-  @apply text-base md:text-4xl font-medium 2xl:text-7xl;
+  @apply font-semibold my-1 text-[clamp(1.5rem,4vw,1.8rem)] md:my-1 text-[clamp(2.2rem,4vw,3rem)] 2xl:text-[clamp(2.7rem,4vw,3.3rem)] capitalize;
 }
-.text-h4-shd {
-  @apply text-lg md:text-xl 2xl:text-3xl text-shadow-[0_0_15px] dark:text-slate-500;
-}
+
 .text-h4 {
-  @apply text-xl md:text-[clamp(1.5rem,2vw,2rem)] 2xl:text-[clamp(2.75rem,3vw,3.3rem)] leading-tight;
+  @apply font-medium my-1 text-[clamp(1.2rem,3vw,1.3rem)] md:text-[clamp(1.8rem,3vw,2.3rem)] 2xl:text-[clamp(2.2rem,3vw,2.6rem)] leading-tight;
+}
+.text-h5 {
+  @apply font-medium my-1 text-[clamp(1.1rem,2.5vw,1.1rem)] md:text-[clamp(1.6rem,2.5vw,2.1rem)] 2xl:text-[clamp(2rem,2.5vw,2.3rem)] leading-tight;
 }
 .text-p {
-  @apply md:text-[clamp(1rem,2vw,1.15rem)] 2xl:text-[clamp(1.8rem,3vw,2.6rem)] leading-tight dark:text-slate-500;
+  @apply text-[clamp(1rem,2vw,0.8rem)] md:text-[clamp(1.5rem,2vw,1.7rem)] 2xl:text-[clamp(1.8rem,2vw,2rem)] leading-tight;
+}
+.text-csm {
+  @apply text-[clamp(0.8rem,1.7vw,0.7rem)] md:text-[clamp(1rem,1.7vw,1.1rem)] 2xl:text-[clamp(1.5rem,1.7vw,1.7rem)] leading-tight;
 }
 .text-color-primary {
   @apply bg-linear-to-r from-cyan-500 font-bold transition-all  dark:to-slate-400 to-black bg-clip-text text-transparent;
@@ -166,10 +167,10 @@ button {
   @apply my-[18%] md:my-[10%] min-h-svh xl:min-h-fit p-5 2xl:w-[65svw] xl:mx-auto;
 }
 .form-card {
-  @apply flex md:w-[85%] md:mx-auto flex-col gap-5 w-full py-5 px-2 md:p-8 rounded-lg md:rounded-2xl  md:shadow-[0_0_10px_#3b82f6] dark:shadow-[0_0_10px] my-5 md:my-16;
+  @apply flex md:w-[85%] md:mx-auto flex-col gap-5 w-full py-5 px-2 md:p-8 rounded-lg md:rounded-2xl  md:shadow-[0_0_10px_#3b82f6] dark:shadow-[0_0_10px] my-5 md:my-16 border-2 border-slate-500 md:border-none;
 }
 
 input,
 textarea {
-  @apply outline-none p-2 border-2 border-slate-500 rounded-md dark:font-extrabold dark:text-black/80  dark:bg-white/50 dark:border-0 focus:border-cyan-500 hover:border-cyan-300;
+  @apply outline-none p-2 border-2 border-slate-500 rounded-md dark:font-bold dark:text-black/80  dark:bg-white/50 dark:border-0 focus:border-cyan-500 hover:border-cyan-300;
 }

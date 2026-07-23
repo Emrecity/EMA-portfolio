@@ -7,10 +7,10 @@ const Portfolio = () => {
   const [section, setSection] = useState("project");
   return (
     <div id="portfolio" className="portfolio-container">
-      <h1 className="text-h2-lg text-color-secondary my-5 text-center">
+      <h1 className="text-h2 text-color-secondary my-5 text-center">
         Portfolio Showcase
       </h1>
-      <p className="text-p text-center mb-5">
+      <p className="text-csm text-center mb-5">
         {" "}
         Explore my journey through projects, technical expertise and services
       </p>

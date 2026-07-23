@@ -9,13 +9,13 @@ const Card = ({ pic, header, key, subtext, icon, link, title }: any) => {
         />
       )}
       <div className={`${icon ? "card-body" : "text-center"}`}>
-        <h3 className="text-lg md:text-2xl 2xl:text-5xl text-color-secondary">
+        <h3 className="text-h5 text-color-secondary">
           {header ? header : "Title Here"}
         </h3>
         {icon && icon}
       </div>
       <small className="card-footer">
-        {subtext && <p className="text-p 2xl:text-xl">{subtext}</p>}
+        {subtext && <p className="text-csm">{subtext}</p>}
         {link && (
           <a href={link} className="btn-link-primary">
             <small>Visit Site</small>

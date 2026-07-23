@@ -56,7 +56,7 @@ const Navbar = ({ setDarktheme, darktheme }) => {
           </button>
         </ul>
         <button
-          className="md:hidden transition-transform delay-100 duration-300 ease-in"
+          className="md:hidden transition-all delay-100 duration-300 ease-in"
           onClick={() => setMenu(!menu)}
         >
           {menu ? "X" : "B"}
