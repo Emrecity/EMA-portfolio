@@ -26,7 +26,7 @@ const LoadingScreen = ({ onComplete }) => {
         {text} <span className="animate-blink ml-1"> | </span>
       </div>
       <div className="w-50 h-0.5 bg-gray-800 rounded relative ">
-        <div className=" w-[85%] h-full bg-cyan-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar"></div>
+        <div className=" w-[80%] h-full bg-cyan-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar"></div>
       </div>
     </div>
   );
