@@ -122,7 +122,7 @@ button {
   @apply text-[clamp(0.8rem,1.7vw,0.7rem)] md:text-[clamp(1rem,1.7vw,1.1rem)] 2xl:text-[clamp(1.5rem,1.7vw,1.7rem)] leading-tight;
 }
 .text-color-primary {
-  @apply bg-linear-to-r from-cyan-500 font-bold transition-all  dark:to-slate-400 to-black bg-clip-text text-transparent;
+  @apply bg-linear-to-r from-cyan-500 font-bold transition-all dark:from-slate-300  dark:to-slate-600 to-black bg-clip-text text-transparent;
 }
 .text-color-secondary {
   @apply bg-linear-to-r from-cyan-500  transition-all from-35% to-black bg-clip-text text-transparent dark:text-slate-400 dark:opacity-70 dark:bg-none;
